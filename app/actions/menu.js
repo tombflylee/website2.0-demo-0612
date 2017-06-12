@@ -1,13 +1,13 @@
 export const CLOSE_MENU = 'CLOSE_MENU'
 export const TOGGLE_MENU = 'TOGGLE_MENU'
 
-export closeMenu = () => {
+export const closeMenu = () => {
 	return {
 		type:CLOSE_MENU
 	}
 }
 
-export toggleMenu = () => {
+export const toggleMenu = () => {
 	return{
 		type: TOGGLE_MENU
 	}

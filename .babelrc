@@ -1,11 +1,11 @@
 {
 	"presets": [
-		["env", {"modules": false}],
-		"latest",
+		"es2015",
 		"react",
-		"stage-0"
+		"stage-1"
 	],
   "plugins": [
+    "transform-class-properties",
   	"react-hot-loader/babel",
   	["import",{ libraryName: "antd", style: "css" }],
     ["transform-runtime", {
