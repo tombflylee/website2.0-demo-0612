@@ -5,6 +5,7 @@ import { Provider } from 'react-redux'
 import App from './containers/App'
 
 render(
-	<Provider>
+	<Provider store={store}>
 		<App />
-	</Provider>,document.getElementById("app"))
+	</Provider>,document.getElementById("app")
+)
