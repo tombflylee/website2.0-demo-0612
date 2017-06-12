@@ -1,1 +1,0 @@
-export const selectMenuState = state => state.application.get('isMenuOpen');
