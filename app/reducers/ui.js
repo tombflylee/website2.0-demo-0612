@@ -16,6 +16,5 @@ export const ui = (state = initialState,action) =>{
 			})
 		default:
 			return state
-
 	}
 }

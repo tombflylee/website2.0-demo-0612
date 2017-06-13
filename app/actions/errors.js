@@ -1,0 +1,2 @@
+export const ERROR = 'ERROR'
+export const UNDER_MAINTENANCE = 'UNDER_MAINTENANCE'
